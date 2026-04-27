@@ -15,7 +15,7 @@ The setup with two boards is done so that the more generic part (the connector P
 
 The USB-C PD power setup that is included here is meant to work nicely with most USB-C power supplies and at the same time be able to power all 16 SAOs to the full specification of the SAO standard (250mA @ 3.3V for each SAO).
 
-The Raspberry Pi Pico is connected very similar to hos the [Hackaday SAO Badge]() was made, with 2 I2C busses (using the same pins) and hooked up to GPIO pins of most of the SAOs (10 out of the 16) as there is a limited number of available connections on the Pico. It's not 100% pin compatible with the Hackaday SAO Badge, but it should be an easy tweak if you would like to run the same firmware.
+The Raspberry Pi Pico is connected very similar to hos the [Hackaday SAO Badge](https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge) was made, with 2 I2C busses (using the same pins) and hooked up to GPIO pins of most of the SAOs (10 out of the 16) as there is a limited number of available connections on the Pico. It's not 100% pin compatible with the Hackaday SAO Badge, but it should be an easy tweak if you would like to run the same firmware.
 
 
 ## Designed in KiCad v10
