@@ -1,0 +1,2227 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cc2ce767-0324-4eeb-a97b-d02e0e63825d")
+	(paper "A4")
+	(title_block
+		(title "3.3V buck converter")
+		(date "2026-04-05")
+		(rev "1.0")
+		(company "HXR.DK")
+		(comment 1 "CC-BY-SA")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:AP63203WU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP63203WU"
+				(at 2.54 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "2A Buck DC/DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP63203WU_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP63203WU_1_1"
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 219.71 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86ee872a-6088-4079-a0cd-83243ee7133b")
+	)
+	(junction
+		(at 52.07 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956bab23-0222-42ec-ab7c-58c9c3bd71e7")
+	)
+	(junction
+		(at 184.15 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0ce74dd-fa8c-4586-b2f1-9f68e3262a71")
+	)
+	(junction
+		(at 144.78 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2887fd8-4a00-4f22-9ee3-3f1350c6d6c0")
+	)
+	(junction
+		(at 87.63 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc0939fb-82f8-4b3d-84be-31be408981a3")
+	)
+	(junction
+		(at 190.5 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e02cc36e-10eb-4e7d-8bbd-ebde1b1c75e3")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01807f85-35c9-49e9-9a4b-f823926714f3")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 52.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0218b119-2628-4e5d-9f24-24e196459335")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 184.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0735cebd-4c82-4863-a384-0cc51b8fe2f4")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 219.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0e0c05-9408-424a-9360-538e41ce1a4e")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1156914e-32f6-4757-a5c4-c6e3e0f5c568")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fc48c2-d219-4f3c-8e5b-e896a7555bd5")
+	)
+	(wire
+		(pts
+			(xy 52.07 78.74) (xy 52.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261878ec-2be4-4335-85a1-9e7d6aedb9ea")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a51bb81-df79-4a97-bb35-6496c5820e36")
+	)
+	(wire
+		(pts
+			(xy 87.63 88.9) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dffac2d-ef2e-42f9-90d5-638425c821d5")
+	)
+	(wire
+		(pts
+			(xy 138.43 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416afd6a-9529-4751-a0ca-ed18b38ddd55")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4344b2a8-ccad-4213-9587-d391f0cf6687")
+	)
+	(wire
+		(pts
+			(xy 52.07 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0d0f88-178c-4432-b405-9a1eb81e1a87")
+	)
+	(wire
+		(pts
+			(xy 144.78 67.31) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0c8cdb-fc2d-4ee1-874e-921f614dddfd")
+	)
+	(wire
+		(pts
+			(xy 219.71 78.74) (xy 219.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bed3363-88bf-43f5-a38a-1ab5bc0582ef")
+	)
+	(wire
+		(pts
+			(xy 184.15 67.31) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646f93b8-cfa6-4e1f-a934-df92771a8734")
+	)
+	(wire
+		(pts
+			(xy 219.71 78.74) (xy 247.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df4211b-ce23-4ef5-9182-69c51fbdd415")
+	)
+	(wire
+		(pts
+			(xy 219.71 88.9) (xy 219.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e80ee18-eb68-4ad4-8d0b-f7182b5c5a25")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3dddd8e-b336-4b8c-850a-03b5ee4bd7e0")
+	)
+	(wire
+		(pts
+			(xy 144.78 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f76521-f4c2-483d-b68e-3200a7b2f58c")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e97218-f73e-4dc4-9a75-b53c0216cd96")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c450a01b-ef38-4f73-a7a6-0a722d421503")
+	)
+	(wire
+		(pts
+			(xy 138.43 83.82) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c624b456-3d4a-42cf-8032-c54ebfdfa983")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c4f5ab-6dc0-4a5f-a31b-6d19151fac09")
+	)
+	(wire
+		(pts
+			(xy 128.27 88.9) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffb1788-e5af-444d-afa2-9e0e742f2c88")
+	)
+	(wire
+		(pts
+			(xy 52.07 88.9) (xy 52.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88f7538-bdd5-4584-84d8-044e571ec495")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 138.43 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9b6a10-c6b9-4171-9373-65286c282a21")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 45.72 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "603a46b7-567c-4ff7-a358-e82b775d5888")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 118.11 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2db5f65-ad29-4ac2-ab09-0d80d8af9091")
+	)
+	(hierarchical_label "3V3_OUT"
+		(shape input)
+		(at 247.65 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c48bb7b4-ecbc-4071-b7f8-1faba374cc57")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01f1008b-7200-43eb-96aa-1b18f0e15516")
+		(property "Reference" "#PWR021"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06b5a022-217c-4b4b-835a-1993e60aee31")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13225326-2f88-4632-9668-d5597ea16239")
+		(property "Reference" "#PWR019"
+			(at 52.07 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57b7017f-63c9-461d-98ad-2f0142fce6ec")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "139e9c6a-a5dd-4f3f-b3d1-17fd86f488c1")
+		(property "Reference" "#PWR023"
+			(at 219.71 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "977f52fe-e308-41f3-b396-6f05512ade58")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bb7ffa5-f73c-4cc3-b2c3-b6013665520e")
+		(property "Reference" "#PWR022"
+			(at 190.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87405b11-a0c0-4311-afac-b2fa6b5e5e37")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69786088-cfaf-4b55-aa46-b2644a6690cb")
+		(property "Reference" "C7"
+			(at 148.59 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF, X5R/X7R, 50V"
+			(at 148.59 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 145.7452 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e49af2d-0d4c-4c43-bed3-dc6bdf057e32")
+		)
+		(pin "2"
+			(uuid "d1a2bbec-4687-4bd2-bb9e-b63a5a0296f6")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 156.21 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84d2bae1-6046-4b9d-95d2-3a2021dab3ba")
+		(property "Reference" "L1"
+			(at 156.21 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8uH"
+			(at 156.21 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA1005S"
+			(at 156.21 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 156.21 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CMLE105T-6R8MS"
+			(at 156.21 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d6c7b84-d2dd-41b8-8b70-370e27c1eb4d")
+		)
+		(pin "2"
+			(uuid "766e3923-d927-42ac-bb2d-440ea21d810e")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "L3")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "L4")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "L2")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.07 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "932a5c21-25a5-4e6f-a397-5261f84bb5d4")
+		(property "Reference" "C5"
+			(at 55.88 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF, X5R/X7R, 35V"
+			(at 55.88 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 53.0352 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55d44c60-701e-4198-9db9-4b1c34f6048a")
+		)
+		(pin "2"
+			(uuid "7633017f-a01a-4562-ab5b-acb2cb01f01b")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP63203WU")
+		(at 128.27 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97d8d591-6037-4731-ae61-bd968ab42409")
+		(property "Reference" "U2"
+			(at 128.27 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63203WU"
+			(at 128.27 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 128.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 128.27 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 128.27 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "9c412100-027c-4857-8f37-9600bc4d97c4")
+		)
+		(pin "4"
+			(uuid "459fae72-024b-4b77-a09c-551fa6034435")
+		)
+		(pin "3"
+			(uuid "faee8e1b-94cf-4ee9-a7dd-6be138303f8c")
+		)
+		(pin "2"
+			(uuid "d586986a-c152-4aaa-831c-d6f915392957")
+		)
+		(pin "6"
+			(uuid "963e4f5f-805d-4d6e-87b4-2236b2ed50b8")
+		)
+		(pin "1"
+			(uuid "856cc847-eead-4c5d-9fa5-18932ae91345")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6edaf9f-3673-4c71-9523-67683f17e444")
+		(property "Reference" "C6"
+			(at 91.44 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF, X5R/X7R, 50V"
+			(at 91.44 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 88.5952 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66765857-a054-4e1e-849c-96683012ddba")
+		)
+		(pin "2"
+			(uuid "a21e9a44-7840-4aab-bd88-e806613978f8")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 190.5 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7390ef5-3440-4f0f-a077-a7cbf3cea158")
+		(property "Reference" "C8"
+			(at 194.31 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF, X5R/X7R, 25V"
+			(at 194.31 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 191.4652 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eec7762e-846c-4a71-b6cf-5cc2053c42e5")
+		)
+		(pin "2"
+			(uuid "b3c32e39-ec7a-4e45-896f-f5a6e0f9e522")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde1c9c7-b072-42b1-b996-b3ade9dc3824")
+		(property "Reference" "C9"
+			(at 223.52 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF, X5R/X7R, 25V"
+			(at 223.52 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 220.6752 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7322793-79ee-4dd3-b05e-d0b35675a880")
+		)
+		(pin "2"
+			(uuid "cc2ac586-8cb7-4538-8379-c468d608fe66")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef2d074-d774-4511-a6fa-c917862828da")
+		(property "Reference" "#PWR020"
+			(at 87.63 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b3b5ae0-86f3-477e-b367-65edf6919b66")
+		)
+		(instances
+			(project "usb_pd_pico_controller"
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/2b972a11-5dc3-4821-8140-dc321c6a6cf7"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/d2e82ad2-c7dc-4d20-bf2d-b2ef1ed1e9a8"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/e59e0715-d7cf-44b9-8d72-c79d2cf229d0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/418f4dec-8a6e-4410-9ba1-d70229eb64f3/f19a23ea-62ef-446b-92f9-478eeed2c573"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "usb-c-pd-badge"
+				(path "/ef37503a-86c9-4583-9091-6435a1479e14/3e6bc3a5-6807-4cd0-bf1c-7500d38d963c"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(group "3v3-buck"
+		(uuid "919fa9bd-62c6-43fa-8ffb-84a6aaf24704")
+		(lib_id "power_supplies:3v3-buck")
+		(members "01807f85-35c9-49e9-9a4b-f823926714f3" "01f1008b-7200-43eb-96aa-1b18f0e15516"
+			"0218b119-2628-4e5d-9f24-24e196459335" "0735cebd-4c82-4863-a384-0cc51b8fe2f4"
+			"0a0e0c05-9408-424a-9360-538e41ce1a4e" "1156914e-32f6-4757-a5c4-c6e3e0f5c568"
+			"12fc48c2-d219-4f3c-8e5b-e896a7555bd5" "13225326-2f88-4632-9668-d5597ea16239"
+			"139e9c6a-a5dd-4f3f-b3d1-17fd86f488c1" "261878ec-2be4-4335-85a1-9e7d6aedb9ea"
+			"2a51bb81-df79-4a97-bb35-6496c5820e36" "2bb7ffa5-f73c-4cc3-b2c3-b6013665520e"
+			"2dffac2d-ef2e-42f9-90d5-638425c821d5" "416afd6a-9529-4751-a0ca-ed18b38ddd55"
+			"4344b2a8-ccad-4213-9587-d391f0cf6687" "4f0d0f88-178c-4432-b405-9a1eb81e1a87"
+			"5b0c8cdb-fc2d-4ee1-874e-921f614dddfd" "5bed3363-88bf-43f5-a38a-1ab5bc0582ef"
+			"603a46b7-567c-4ff7-a358-e82b775d5888" "646f93b8-cfa6-4e1f-a934-df92771a8734"
+			"69786088-cfaf-4b55-aa46-b2644a6690cb" "6df4211b-ce23-4ef5-9182-69c51fbdd415"
+			"84d2bae1-6046-4b9d-95d2-3a2021dab3ba" "86ee872a-6088-4079-a0cd-83243ee7133b"
+			"932a5c21-25a5-4e6f-a397-5261f84bb5d4" "956bab23-0222-42ec-ab7c-58c9c3bd71e7"
+			"97d8d591-6037-4731-ae61-bd968ab42409" "9e80ee18-eb68-4ad4-8d0b-f7182b5c5a25"
+			"a2db5f65-ad29-4ac2-ab09-0d80d8af9091" "a6edaf9f-3673-4c71-9523-67683f17e444"
+			"a7390ef5-3440-4f0f-a077-a7cbf3cea158" "b3dddd8e-b336-4b8c-850a-03b5ee4bd7e0"
+			"b6f76521-f4c2-483d-b68e-3200a7b2f58c" "b8e97218-f73e-4dc4-9a75-b53c0216cd96"
+			"c0ce74dd-fa8c-4586-b2f1-9f68e3262a71" "c2887fd8-4a00-4f22-9ee3-3f1350c6d6c0"
+			"c450a01b-ef38-4f73-a7a6-0a722d421503" "c48bb7b4-ecbc-4071-b7f8-1faba374cc57"
+			"c624b456-3d4a-42cf-8032-c54ebfdfa983" "cc0939fb-82f8-4b3d-84be-31be408981a3"
+			"cde1c9c7-b072-42b1-b996-b3ade9dc3824" "d8c4f5ab-6dc0-4a5f-a31b-6d19151fac09"
+			"dffb1788-e5af-444d-afa2-9e0e742f2c88" "e02cc36e-10eb-4e7d-8bbd-ebde1b1c75e3"
+			"f88f7538-bdd5-4584-84d8-044e571ec495" "fef2d074-d774-4511-a6fa-c917862828da"
+			"ff9b6a10-c6b9-4171-9373-65286c282a21"
+		)
+	)
+)
