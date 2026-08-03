@@ -2103,7 +2103,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF, X5R/X7R, 50V"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "eb22fe65-a900-4647-adc7-e9f77bc55bd2")
@@ -14919,7 +14919,7 @@
 				(justify mirror)
 			)
 		)
-		(attr through_hole)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
